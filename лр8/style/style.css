@@ -1,0 +1,72 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    background-color: black;
+    color:white;
+    width: 100%;
+}
+.col-xl-5 {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    gap: 15px; 
+
+}
+
+
+.score-box {
+    background-color: rgb(95, 116, 70);
+    border-radius: 20px;
+    width: 150px; 
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.choice-circle {
+    border-radius: 50%;
+    background-color: rgb(119, 53, 45);
+    border: 1px solid rgb(52, 21, 21);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.col-xl-2 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+}
+button{
+    width:60%;
+    height: 40px;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top:10px
+}
+
+.box1, .box2 {
+  transition: border-color 0.5s ease-out, box-shadow 0.5s ease-out;
+}
+.neon-glow{
+  border: 1px solid #39FF14;
+  box-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;
+}
+.neon-glow-red{
+  border: 1px solid #ff1414;
+  box-shadow: 0 0 10px #ff1414, 0 0 20px #ff1414;
+}
