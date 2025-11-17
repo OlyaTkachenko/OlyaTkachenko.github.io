@@ -1,0 +1,71 @@
+body, html{
+    width:100%;
+    height: 100%;
+    margin:0;
+    padding: 0;
+
+}
+body{
+    background-color: rgb(33, 23, 40);
+    color:white;
+    text-align: center;
+    background-image: url("images/fon2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.container{
+    height: 100%;
+}
+.games {
+    height: 80vh; 
+}
+.games a{
+    height: 200px;
+    padding: 0;
+    border: 1px solid black;
+    margin: 20px;
+    border-radius: 10%;
+    box-shadow: 
+        0 0 10px #8c0606,  
+        0 0 20px #8c0606,  
+        0 0 40px #8c0606;  
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    max-width: 250px;
+}
+.games a:hover{
+    box-shadow: 
+        0 0 7px #8c0606, 
+        0 0 15px #8c0606,
+        0 0 30px #8c0606,
+        0 0 60px #8c0606,
+        0 0 120px #8c0606;
+    transform: scale(1.05); 
+    cursor: pointer;
+}
+
+.kolo{
+    background-image: url("images/kolo.png");
+}
+.numbers{
+    background-image: url("images/numbers.png");
+}
+.cards{
+    background-image: url("images/cards.png");
+}
+.casino{
+    background-image: url("images/casino.png");
+}
+.kolo, .numbers, .cards, .casino{
+    width: 100%;
+    height: 100%;
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 10%;
+}
+.games a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
